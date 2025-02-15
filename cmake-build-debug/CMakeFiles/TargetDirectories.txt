@@ -1,0 +1,3 @@
+C:/Users/tinas/Documents/Github/Advance Algorithms/Advanced-algorithms-week6/cmake-build-debug/CMakeFiles/Advanced_algorithms_week6.dir
+C:/Users/tinas/Documents/Github/Advance Algorithms/Advanced-algorithms-week6/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tinas/Documents/Github/Advance Algorithms/Advanced-algorithms-week6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
