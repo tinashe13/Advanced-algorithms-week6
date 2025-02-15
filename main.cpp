@@ -43,13 +43,13 @@ HuffmanNode* buildHuffmanTree(const string &S, const vector<unsigned> &freq) {
     // Create a min-heap (priority queue) to hold tree nodes
     priority_queue<HuffmanNode*, vector<HuffmanNode*>, Compare> minHeap;
 
-    // Step 1: Create a leaf node for each character and push into heap
+    // Create a leaf node for each character and push into heap
     for (size_t i = 0; i < S.size(); i++) {
         HuffmanNode* node = new HuffmanNode(S[i], freq[i]);
         minHeap.push(node);
     }
 
-    // Step 2: Repeat until only one node remains in the heap
+    // Repeat until only one node remains in the heap
     while (minHeap.size() > 1) {
         // Extract the two nodes with the smallest frequency
         HuffmanNode* leftNode  = minHeap.top();
