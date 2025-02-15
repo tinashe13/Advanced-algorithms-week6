@@ -17,7 +17,7 @@ struct HuffmanNode {
 
 // A custom comparator to make a min-heap based on frequency
 struct Compare {
-    bool operator()(HuffmanNode* left, HuffmanNode* right) {
+    bool operator()(const HuffmanNode* left, const HuffmanNode* right) {
         return (left->freq > right->freq);
     }
 };
