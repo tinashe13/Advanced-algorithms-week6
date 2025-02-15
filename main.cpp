@@ -40,7 +40,7 @@ void printCodesPreorder(HuffmanNode* root, const string &code) {
 
 // Build Huffman Tree and return its root
 HuffmanNode* buildHuffmanTree(const string &S, const vector<unsigned> &freq) {
-    // Create a min-heap (priority queue) to hold tree nodes
+    // Create a min heap to hold tree nodes
     priority_queue<HuffmanNode*, vector<HuffmanNode*>, Compare> minHeap;
 
     // Create a leaf node for each character and push into heap
